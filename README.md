@@ -10,7 +10,6 @@
     - Dili editlemek için lang/ klasörüne girin. (sadece anadizinin dili)
     - Uyeler veritabanı adminler içindir.
     - Adminlerin icerik_onay = 5 olmak zorundadır.
-    - Uyeler'de uye_sifre MD5(sha1) ile korunmaktadır.
     İlk Admin Bilgileri:
     Kullanıcı Adı: Admin
     Şifre: admin123itiraf
