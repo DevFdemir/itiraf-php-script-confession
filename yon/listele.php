@@ -1,5 +1,4 @@
 <?php
-	include 'lang/tr.php';
 	session_start();
 	include 'ayar.php';
 	include 'ayara.php';
