@@ -6,11 +6,11 @@
 if ($_POST) { // Sayfada post olup olmadığını kontrol ediyoruz.
 
     // Sayfa yenilendikten sonra post edilen değerleri değişkenlere atıyoruz
-		$itiraf_text = $_POST['itiraf_text'];
-		$itiraf_rumuz = $_POST['itiraf_rumuz'];
-		$itiraf_like = $_POST['itiraf_like'];
-		$itiraf_cinsiyet = $_POST['itiraf_cinsiyet'];
-		$itiraf_onay = $_POST['itiraf_onay'];
+		$itiraf_text = htmlspecialchars($_POST['itiraf_text']);
+		$itiraf_rumuz = htmlspecialchars($_POST['itiraf_rumuz']);
+		$itiraf_like = htmlspecialchars($_POST['itiraf_like']);
+		$itiraf_cinsiyet = htmlspecialchars($_POST['itiraf_cinsiyet']);
+		$itiraf_onay = htmlspecialchars($_POST['itiraf_onay']);
      { 
     // Veri alanlarının boş olmadığını kontrol ettiriyoruz. Başka kontrollerde yapabilirsiniz.
         
